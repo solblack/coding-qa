@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="accordion mt-5" id="accordion">
+    <div *ngFor="let question of questions">
+      <div class="card">
+        <div class="card-header" id="question.id">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-link btn-block text-left"
+              type="button"
+              data-toggle="collapse"
+              [attr.data-target]="'#collapse-' + question.id"
+              [attr.aria-controls]="'collapse-' + question.id"
+              aria-expanded="false"
+            >
+              {{ question.id + " - " + question.question }}
+            </button>
+          </h2>
+        </div>
+
+        <div
+        [attr.id]="'collapse-' + question.id"
+          class="collapse"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            {{ question.answer }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
