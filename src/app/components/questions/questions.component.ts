@@ -77,7 +77,7 @@ export class QuestionsComponent implements OnInit {
       id: 11,
       question: '¿Qué es el “modo estricto” de JavaScript y cómo se implementa?',
       answer:
-        'answer',
+        'El uso de la directiva "use strict" previene que se tomen ciertas acciones o medidas y muestra más excepciones. Para utilizar el Modo Estricto lo único que tenemos que hacer es agregar la frase entre comillas «use strict». El caso más común (y popular) es cuando se aplica a nivel de archivo (la frase está arriba del todo en nuestro archivo), pero también se puede aplicar a una función específica',
     },
     {
       id: 12,
@@ -89,7 +89,7 @@ export class QuestionsComponent implements OnInit {
       id: 13,
       question: '¿Qué es un callback?',
       answer:
-        'answer',
+        'Un Callback es una función que se pasa como parámetro en otra función. El callback se ejecutará después de que esa función haya terminado de ejecutarse',
     },
     {
       id: 14,
@@ -101,7 +101,7 @@ export class QuestionsComponent implements OnInit {
       id: 15,
       question: '¿Qué es IIFE (o función auto-invocada) y para qué sirve?',
       answer:
-        'answer',
+        'Es un patrón en JavaScript que ejecuta una función tan pronto como se declara. Esto se conoce como una expresión de función inmediatamente invocada o patrón auto ejecutable, y sencillamente hace que una función se ejecute inmediatamente. Se utiliza básicamente para evitar el conflicto de nombres. Las variables u objetos declarados no son accesibles fuera de esta función',
     },
     {
       id: 16,
@@ -113,7 +113,7 @@ export class QuestionsComponent implements OnInit {
       id: 17,
       question: '¿Cuál es la diferencia entre "var", "let" y "const"?',
       answer:
-        'answer',
+        'CONST: Es una constante la cual NO cambiara su valor en ningún momento en el futuro. VAR: Es una variable que SI puede cambiar su valor y su ámbito es local. LET: Es una variable que también podra cambiar su valor, pero solo funcionará en el bloque donde fue declarada.',
     },
     {
       id: 18,
@@ -125,7 +125,7 @@ export class QuestionsComponent implements OnInit {
       id: 19,
       question: 'Cuál es la diferencia entre "declaración de función" y "expresión de función"?',
       answer:
-        'answer',
+        'La declaración de función se encuentra en el ámbito global a todo el programa (p.ej: function sumar(a,b){return a + b;}) Al contrario, con la expresión de función, que sólo corresponde a una sección definida del programa (p.ej: let sumar = function(a,b){return a + b;})',
     },
     {
       id: 20,
