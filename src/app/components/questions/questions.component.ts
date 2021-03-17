@@ -83,7 +83,7 @@ export class QuestionsComponent implements OnInit {
       id: 12,
       question: '¿Qué es una promesa en Javascript?',
       answer:
-        'answer',
+        'Las Promesas en JavaScript son acciones que se resolverán a futuro (cuando se pueda) y que sabremos si se llevaron a cabo con éxito o no. Una promesa representa un valor que puede estar disponible ahora, en el futuro, o nunca, Por ejemplo una imagen que todavía no está cargada, pero en un futuro lo estará. Si queremos que una parte del código se ejecute solo cuando la imagen esté cargada, podemos utilizar promesas.',
     },
     {
       id: 13,
@@ -95,7 +95,7 @@ export class QuestionsComponent implements OnInit {
       id: 14,
       question: '¿Qué significa que Javascript sea Dynamic Type o de tipado dinámico?',
       answer:
-        'answer',
+        'Significa que no es necesario indicar el tipo de dato que se guardará en una variable, es más, el tipo de una variable puede ir cambiando a lo largo de nuestro programa, pudiendo la misma variable ser numérica y luego string un par de líneas mas adelante.',
     },
     {
       id: 15,
@@ -107,7 +107,7 @@ export class QuestionsComponent implements OnInit {
       id: 16,
       question: '¿Cuál es la diferencia entre == y ===?',
       answer:
-        'answer',
+        'El == solo compara el valor y devuelve true si estos son iguales ejemplo: ( 1 == "1"). Mientras que el operador === compara tanto el valor como el tipo de dato, por ejemplo: ( 2 === 2)true ,(2 === "2")false.',
     },
     {
       id: 17,
@@ -119,7 +119,7 @@ export class QuestionsComponent implements OnInit {
       id: 18,
       question: 'Cuál es la diferencia entre "null" y "undefined"?',
       answer:
-        'answer',
+        'Undefined, es asignado por JS de forma automática como valor inicial de una variable en caso de que no le asignes un valor. En cambio el valor Null, debe ser asignado mediante el código que escribamos. Null, significa que la variable no tiene ningún valor y Undefined Es la forma en que JS dice que no sabe que es esa variable.',
     },
     {
       id: 19,
@@ -131,7 +131,7 @@ export class QuestionsComponent implements OnInit {
       id: 20,
       question: '¿Qué es un "clojure"?',
       answer:
-        'answer',
+        'Es una funcion, la cual puede acceder a variables definidas tanto dentro como fuera de esta funcion.',
     },
   ];
   // Para controlar la asincronia en Javascript, es decir, para definir en qué momentos sí hay que bloquear la ejecución del código hasta obtener una respuesta, contamos con mecanismos tales como: callbacks, promesas(ES6), async/await (que es "sugar sintax" para hacer más sencillo el uso de promesas en el código).
