@@ -133,6 +133,57 @@ export class QuestionsComponent implements OnInit {
       answer:
         'Es una funcion, la cual puede acceder a variables definidas tanto dentro como fuera de esta funcion.',
     },
+    {
+      id: 21,
+      question: '¿En P.O.O, que es la herencia?',
+      answer:
+        'Es el mecanismo por el cual una clase recibe o "hereda" las características (atributos y métodos) de otra clase. La herencia permite que se puedan definir nuevas clases basadas de unas ya existentes a fin de reutilizar el código, generando así una jerarquía de clases dentro de una aplicación. Si una clase deriva de otra, esta hereda sus atributos y métodos y puede añadir nuevos atributos, métodos o redefinir los heredados.',
+    },
+    {
+      id: 22,
+      question: '¿En P.O.O, que es el polimorfismo?',
+      answer:
+        'Es la posibilidad de definir clases diferentes que tienen métodos o atributos denominados de forma idéntica, pero que se comportan de manera distinta, debido a los parámetros utilizados durante su invocación.',
+    },
+    {
+      id: 23,
+      question: '¿En P.O.O, que es el encapsulamiento?',
+      answer:
+        `Es el proceso en el que organizamos los datos y metodos de una clase, restringiendo el acceso a estos por cualquier otro medio que no sea el especificado, de esta manera aseguramos la integridad de los datos del objeto. 
+        para ello contamos con tres niveles de acceso "Public", "Private" y "Protected".`,
+    },
+    {
+      id: 24,
+      question: '¿Qué es una interface(P.O.O)?',
+      answer:
+        'Una interfaz es un conjunto de métodos abstractos y de constantes cuya funcionalidad es la de determinar el funcionamiento de una clase, es decir, funciona como un molde o como una plantilla. Al ser sus métodos abstractos estos no tiene funcionalidad alguna, sólo se definen su tipo, argumento y tipo de retorno.',
+    },
+    {
+      id: 25,
+      question: '¿Cuál es la diferencias entre "public", "private" y "restricted" dentro de una clase (TS)?',
+      answer:
+      `Público (Public): En este nivel cualquier función de cualquier clase puede acceder a los datos o métodos de una clase que se definen con este nivel.
+        Protegido (Protected): El acceso en este nivel está restringido al «público» es decir solamente son accesibles dentro de su clase y por subclases.
+          Privado (Private): En este nivel se puede declarar miembros accesibles sólo para la propia clase.`,
+    },
+    {
+      id: 26,
+      question: '¿Cuál seria el beneficio de una clase que "extiende" de otra?',
+      answer:
+        'Podemos crear una clase hija que herede a una clase padre, adquiriendo toda su funcionalidad y añadiendo la suya propia.',
+    },
+    {
+      id: 27,
+      question: '¿Cuál es el beneficio de que una clase herede de una interface?',
+      answer:
+        'El beneficio es que una clase puede implementar más de una interface.',
+    },
+    {
+      id: 28,
+      question: '¿Qué es una "clase abstracta"?',
+      answer:
+        'Las clases abstractas son aquellas que por sí mismas no se pueden identificar con algo "concreto" (no existen como tal en el mundo real), pero sí poseen determinadas características que son comunes en otras clases que pueden ser creadas a partir de ellas. Ej: Vehiculo',
+    },
   ];
   // Para controlar la asincronia en Javascript, es decir, para definir en qué momentos sí hay que bloquear la ejecución del código hasta obtener una respuesta, contamos con mecanismos tales como: callbacks, promesas(ES6), async/await (que es "sugar sintax" para hacer más sencillo el uso de promesas en el código).
   constructor() {}
