@@ -160,7 +160,7 @@ export class QuestionsComponent implements OnInit {
     },
     {
       id: 25,
-      question: '¿Cuál es la diferencias entre "public", "private" y "restricted" dentro de una clase (TS)?',
+      question: '¿Cuál es la diferencia entre "public", "private" y "protected" dentro de una clase (TS)?',
       answer:
       `Público (Public): En este nivel cualquier función de cualquier clase puede acceder a los datos o métodos de una clase que se definen con este nivel.
         Protegido (Protected): El acceso en este nivel está restringido al «público» es decir solamente son accesibles dentro de su clase y por subclases.
